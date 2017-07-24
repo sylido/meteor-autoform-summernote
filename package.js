@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'mpowaga:autoform-summernote',
+  name: 'marcoschwartz:autoform-summernote',
   summary: 'Summernote editor for aldeed:autoform',
   version: '0.4.4',
   git: 'https://github.com/mpowaga/meteor-autoform-summernote'
