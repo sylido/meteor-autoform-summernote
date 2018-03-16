@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'marcoschwartz:autoform-summernote',
+  name: 'sylido:autoform-summernote',
   summary: 'Summernote editor for aldeed:autoform',
-  version: '0.4.4',
-  git: 'https://github.com/mpowaga/meteor-autoform-summernote'
+  version: '0.4.5',
+  git: 'https://github.com/sylido/meteor-autoform-summernote'
 });
 
 Package.onUse(function(api) {
@@ -12,13 +12,13 @@ Package.onUse(function(api) {
     'templating',
     'underscore',
     'reactive-var',
-    'aldeed:autoform@6.2.0',
-    'summernote:standalone@0.8.1'
+    'aldeed:autoform',
+    'summernote:standalone'
   ], 'client');
 
   api.addFiles([
     'lib/client/templates.html',
     'lib/client/templates.js',
-    'lib/client/autoform-summernote.js'  
+    'lib/client/autoform-summernote.js'
   ], 'client');
 });
